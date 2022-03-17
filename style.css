@@ -6,13 +6,13 @@
     padding: 1em;
     box-sizing: border-box;
     border-radius: 10px;
-    background: beige;
-    box-shadow: 1px 1px 5px #ddd;
+    background: white;
+    box-shadow: 1px 1px 5px darkgoldenrod;
   }
 
   body 
   {
-    background: #eee;
+    background: lightgray;
   }
 
   p {
