@@ -1,34 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
 
-.newspaper-container {
-    width: 700px;
-    margin: 3em auto;
-    padding: 1em;
-    box-sizing: border-box;
-    border-radius: 10px;
-    background: white;
-    box-shadow: 1px 1px 5px darkgoldenrod;
-  }
-
-  body 
-  {
-    background: lightgray;
+body {
+    background: #eee;
     font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+    font-weight: 200;
   }
-
+  a {
+    text-decoration: none;
+  }
   p {
-    font-size: 1 em;
-    text-align: center;
+    font-size: 0.9em;
+    text-align: justify;
     padding: 0 10px;
-    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
   }
   
-  header h1 {
-    margin: 0 1 0 0em;
-    font-size: 2em;
-    text-align: center;
-    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
-  }
+  /* CONTAINER */
   .newspaper-container {
     width: 700px;
     margin: 3em auto;
@@ -37,38 +23,71 @@
     border-radius: 10px;
     background: white;
     box-shadow: 1px 1px 5px #ddd;
-    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
   }
+  
+  /* HEADER */
+  .date {
+    font-size: 0.8em;
+  }
+  header h1 {
+    font-family: 'Abril Fatface', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    font-size: 2.5em;
+    text-align: center;
+  }
+  
+  /* NAVIGATION */
+  nav {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 5px 0;
+    margin: 1em 0;
+    position: sticky;
+    top: 0;
+    background: white;
   }
   nav ul {
     list-style: none;
     margin: 0;
-    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
   }
   nav li {
     display: inline-block;
-    padding: 0 1em;
-    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+    padding: 0 0.5em;
   }
   nav a {
-    font-size: 1em;
+    font-size: 0.8em;
     color: #777;
-    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
   }
- 
+  
+  /* FRONT PAGE ARTICLE */
   main h2 {
-    margin: 0 1 0 0em;
-    text-align: center;
-    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Slab', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 0;
   }
   main h5 {
-    color: #84a4d3;
-    margin: 0 1 0 0em;
-    text-align: center;
-    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+    font-family: 'Abril Fatface', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #dd3232;
+    margin-top: 0.5em;
   }
   main img {
     width: 100%;
-    margin: 0 1 0 0em;
-    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+  }
+  
+  /* SMALLER ARTICLES */
+  .more-articles {
+    border-top: 1px solid #eee;
+    margin-top: 1.5em;
+    text-align: center;
+  }
+  .more-articles section {
+    display: inline-block;
+    width: 44%;
+    margin: 0 1em;
+  }
+  .more-articles img {
+    width: 100%;
+  }
+  .more-articles h4 {
+    font-family: 'Roboto Slab', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
   }
